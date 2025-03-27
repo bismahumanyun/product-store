@@ -1,0 +1,22 @@
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+button[mat-button] {
+  color: rgb(24, 0, 88);
+}
+
+mat-toolbar span {
+  font-weight: bold;
+}
+
+mat-toolbar button {
+  margin-right: 10px;
+}
